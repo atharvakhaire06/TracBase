@@ -1,0 +1,8 @@
+.env
+*.env
+*.log
+.venv/
+.venv/**
+.worktrees/
+.codex/**
+.pytest_cache/
