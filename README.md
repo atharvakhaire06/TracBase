@@ -144,8 +144,6 @@ npm run dev
 
 The frontend defaults to `http://localhost:8080/api/v1` when `VITE_API_BASE_URL` is not set.
 
-## Testing and CI
-
 ### Local test commands
 
 Backend:
@@ -208,20 +206,6 @@ All backend routes are exposed under `/api/v1`.
 ### Reports
 
 - `GET /reports/monthly`
-
-## Health Check
-
-The backend exposes a lightweight health endpoint:
-
-```text
-GET /health
-```
-
-Expected response:
-
-```json
-{"health":"ok"}
-```
 
 ## Summary
 

@@ -1,8 +1,34 @@
+# Environment files
 .env
 *.env
 *.log
+
+# Python virtual environment & cache
 .venv/
 .venv/**
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Local SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node & Frontend build artifacts
+node_modules/
+dist/
+.vite/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 .worktrees/
 .codex/**
-.pytest_cache/
