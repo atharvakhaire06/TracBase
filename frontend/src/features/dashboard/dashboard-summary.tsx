@@ -17,7 +17,7 @@ export function DashboardSummary({
   goal,
   progress,
   report,
-  recentExpenses,
+  recentExpenses
 }: DashboardSummaryProps) {
   const topCategories = report.top_5_categories ?? [];
   const topCategory = topCategories[0];
